@@ -6,33 +6,28 @@
         xmlns:local="clr-namespace:OODProjectY2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="0,0,-0.4,0">
+    <Grid Margin="0,0,-0.4,0" Background="#FFC7B3D9">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="194*"/>
-            <ColumnDefinition Width="203*"/>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="0*"/>
+
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="7*"/>
-            <RowDefinition Height="205*"/>
-            <RowDefinition Height="208*"/>
+
         </Grid.RowDefinitions>
-        <Image x:Name="image" HorizontalAlignment="Left"
+        <Image x:Name="image1" HorizontalAlignment="Left"
                VerticalAlignment="Bottom" Source="/images/shop icon.png" Margin="295,0,0,116" Height="173" Grid.RowSpan="2" Grid.Row="1" Width="173" Grid.ColumnSpan="2"/>
-        <Label Content="Mah's Jewellery Shop" HorizontalAlignment="Left" Margin="255,29.8,0,0" VerticalAlignment="Top" Cursor="" FontFamily="Bernard MT Condensed" FontSize="30" Height="46" Grid.Row="1" Width="251" Grid.ColumnSpan="2"/>
-        <ProgressBar HorizontalAlignment="Left" Height="23" Margin="11,170,0,0" VerticalAlignment="Top" Width="754" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Grid.Row="2">
+        <Label x:Name="lb1" Content="Mah's Jewellery Shop" HorizontalAlignment="Left" Margin="255,29.8,0,0" VerticalAlignment="Top" Cursor="" FontFamily="Bernard MT Condensed" FontSize="30" Height="46" Grid.Row="1" Width="251" Grid.ColumnSpan="2"/>
+        <ProgressBar x:Name="Pb" HorizontalAlignment="Left" Height="23" Margin="21,383,0,0" VerticalAlignment="Top" Width="754" RenderTransformOrigin="0.511,-2.883">
             <ProgressBar.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleY="-1"/>
                     <SkewTransform/>
                     <RotateTransform/>
-                    <TranslateTransform/>
+                    <TranslateTransform Y="155.618"/>
                 </TransformGroup>
             </ProgressBar.RenderTransform>
         </ProgressBar>
-        <Label Content="Loading Modules..." HorizontalAlignment="Right" Margin="0,129,137,0" VerticalAlignment="Top" FontFamily="Sylfaen" FontSize="25" Grid.Row="2" Height="43" Width="234"/>
-        <Label Content="%" HorizontalAlignment="Left" Margin="214,127,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Emoji" FontSize="25" Grid.Row="2" Height="43" Width="30" />
+        <Label Content="Loading Modules..." HorizontalAlignment="Right" Margin="0,337,539,0" VerticalAlignment="Top" FontFamily="Sylfaen" FontSize="25" Height="43" Width="234"/>
+        <Label x:Name="percentage" Content="%" HorizontalAlignment="Left" Margin="225,335,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Emoji" FontSize="25" Height="43" Width="30" />
     </Grid>
 
 </Window>
