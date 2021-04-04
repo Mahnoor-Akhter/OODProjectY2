@@ -10,7 +10,7 @@
         <Grid.ColumnDefinitions>
 
         </Grid.ColumnDefinitions>
-        <Rectangle x:Name="RtBoxP" Fill="#FFD8C9E8" HorizontalAlignment="Left" Height="366" Margin="25,27,0,0" Stroke="Black" VerticalAlignment="Top" Width="740"/>
+        <Rectangle x:Name="RtBoxP1" Fill="#FFD8C9E8" HorizontalAlignment="Left" Height="366" Margin="25,27,0,0" Stroke="Black" VerticalAlignment="Top" Width="740"/>
         <Label x:Name="lb1" Content="Mah's Jewellery Shop" HorizontalAlignment="Left" Margin="263,38,0,0" VerticalAlignment="Top" Cursor="" FontFamily="Bernard MT Condensed" FontSize="30" Height="46" Width="251"/>
         <Image x:Name="image1" HorizontalAlignment="Left"
                VerticalAlignment="Bottom" Source="/images/icon.png" Margin="341,0,0,265" Height="66" Width="74"/>
