@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="items" Height="450" Width="800" Background="#FFC7B3D9">
     <Grid>
-        <Rectangle x:Name="RtBoxP1" Fill="#FFD8C9E8" HorizontalAlignment="Left" Height="400" Margin="21,10,-1.4,0" Stroke="Black" VerticalAlignment="Top" Width="774"/>
+        <Rectangle x:Name="RtBoxP2" Fill="#FFD8C9E8" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="774"/>
         <Label x:Name="lbProduct" Content="Products" HorizontalAlignment="Left" Margin="277,23,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="20"/>
         <Image x:Name="image1" HorizontalAlignment="Left"
             VerticalAlignment="Bottom" Source="images/icon.png" Margin="198,0,0,344" Height="66" Width="74"/>
@@ -30,6 +30,6 @@
         <Button x:Name="btnsave" Content="Save" HorizontalAlignment="Left" Margin="655,122,0,0" VerticalAlignment="Top" Width="98" Height="27" RenderTransformOrigin="0.631,0.72" Background="#FFEDE3FA" FontSize="18" FontFamily="Showcard Gothic"/>
         <Button x:Name="btnreset" Content="Reset" HorizontalAlignment="Left" Margin="655,254,0,0" VerticalAlignment="Top" Width="98" Height="27" RenderTransformOrigin="0.631,0.72" Background="#FFEDE3FA" FontSize="18" FontFamily="Showcard Gothic"/>
         <ListBox x:Name="listboxP" HorizontalAlignment="Left" Height="266" Margin="258,113,0,0" VerticalAlignment="Top" Width="373"/>
-        <Label x:Name="lbcustomers_Copy" Content="Products List" HorizontalAlignment="Left" Margin="384,84,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" Height="29"/>
+        <Label x:Name="lbx1" Content="Products List" HorizontalAlignment="Left" Margin="384,84,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" Height="29"/>
     </Grid>
 </Window>
